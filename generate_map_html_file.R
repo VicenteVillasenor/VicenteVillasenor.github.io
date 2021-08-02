@@ -22,5 +22,6 @@ map = leaflet() %>%
 
 map
 
+
 htmlwidgets::saveWidget(map, file = paste0(dirname(my.path), "/map.html"))
 
